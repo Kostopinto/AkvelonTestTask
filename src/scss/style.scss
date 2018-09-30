@@ -1,0 +1,104 @@
+#Invoices {
+    background: lightgrey;
+    width: 900px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: inherit;
+}
+
+#formActions,
+#divTable {
+    background: white;
+    padding: 10px;
+}
+
+#myTable {
+
+    tr,
+    th {
+        text-align: left;
+        width: 195px;
+        text-indent: 5px;
+        font-weight: normal;
+        height: 25px;
+    }
+
+    td {
+        background: white;
+        border-bottom: 1px dotted gray;
+        /*    word-break: break-word;*/
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+
+    tr {
+        &:first-child {
+            background: lightgrey;
+        }
+
+        td:last-child {
+            text-align: right;
+        }
+    }
+
+    table:last-child {
+        padding-bottom: 10px;
+    }
+}
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 4px;
+    font: 8px Verdana;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    &[disabled] {
+        background-color: grey;
+    }
+}
+.action {
+    text-align: right;
+}
+
+.invoice {
+    position: relative;
+    padding: 10px;
+}
+
+p {
+    border-left: 2px dotted gray;
+    padding-left: 5px;
+}
+
+#buttonSave {
+    margin-top: 20px;
+}
+
+#CreateInvoice {
+    background: lightgrey;
+    width: 800px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: none;
+}
+
+#formInvoice {
+    background: white;
+    padding: 10px 10px 20px 10px;
+}
+
+input {
+    width: 370px;
+}
+
+#tableInvoice {
+    border: 1px solid silver;
+    border-bottom: 0px;
+    padding: 7px;
+}

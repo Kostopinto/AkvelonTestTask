@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Akvelon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="CreateInvoice">
+        <p>CreateInvoice</p>
+        <form name="formInvoice" id="formInvoice">
+            <table id="tableInvoice">
+                <tr>
+                    <td>Number:</td>
+                    <td>Invoice Date:</td>
+                </tr>
+                <tr>
+                    <td><input placeholder="min 3 symbols" name="number" id="number" type="text"></td>
+                    <td><input name="date_created" type="date"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Supply Date:</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input name="date_supplied" type="date"></td>
+                </tr>
+
+                <br>
+                <tr>
+                    <td>Comment:</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="comment" maxlength="160" rows="2" cols="105" name="text"></textarea></td>
+                </tr>
+                <br>
+            </table>
+            <div class="action">
+                <button type="button" id="buttonSave" class="button" disabled>Save</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="Invoices">
+        <p>Invoices</p>
+
+        <div id="formActions">
+            <b>Actions</b>
+            <br>
+            <button class="button" id="addButton">Add new</button>
+        </div>
+        <br>
+        <div id="divTable">
+            <b>Invoices</b>
+            <table id="myTable" cellspacing="0"></table>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

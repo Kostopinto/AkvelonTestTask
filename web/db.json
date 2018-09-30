@@ -1,0 +1,39 @@
+{
+  "invoices": [
+    {
+      "id": "5ba37c48671ae1de6d480a60",
+      "number": 40593,
+      "date_created": "27-08-2018",
+      "date_supplied": "12-02-2018",
+      "comment": "eiusmod mollit nostrud aliquip nulla Lorem proident dolore nostrud quis"
+    },
+    {
+      "id": "5ba37c48c2882eacf4c434f4",
+      "number": 14266,
+      "date_created": "25-12-2017",
+      "date_supplied": "31-10-2016",
+      "comment": "labore eu do dolore deserunt sunt elit nulla magna officia"
+    },
+    {
+      "id": "5ba37c484d2f231ddf2e824e",
+      "number": 74644,
+      "date_created": "25-11-2016",
+      "date_supplied": "15-07-2017",
+      "comment": "amet consequat adipisicing mollit eu nostrud anim pariatur eiusmod ullamco"
+    },
+    {
+      "id": "5ba37c48e44ac4fed3bc9d41",
+      "number": 55509,
+      "date_created": "16-02-2014",
+      "date_supplied": "29-08-2015",
+      "comment": "duis sint culpa magna adipisicing id id Lorem minim ad"
+    },
+    {
+      "id": "5ba37c486024775344d497e6",
+      "number": 18041,
+      "date_created": "30-01-2018",
+      "date_supplied": "05-06-2016",
+      "comment": "incididunt esse amet reprehenderit in exercitation in incididunt exercitation aliqua"
+    }
+  ]
+}
