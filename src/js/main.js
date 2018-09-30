@@ -17,7 +17,7 @@ window.onclick = ({
 
         pushData();
     }
-    if (target.className == 'del') {
+    if (target.classList.contains('del')) {
         const isDelete = confirm('Are you sure?');
         if (isDelete) {
             deleteData(target.getAttribute('invoiceId'));
